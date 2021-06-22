@@ -1,0 +1,96 @@
+#navbar {
+  padding: 0;
+  margin: 0;
+}
+
+#logo img {
+  margin: 5px;
+  height: 60px;
+}
+
+.header {
+  width: 100%;
+  background: #11111191;
+}
+
+#navbar .manage {
+  color: white;
+  font-family: "Baloo Bhai", cursive;
+  float: right;
+  cursor: pointer;
+}
+
+#navbar ul {
+  display: none;
+  margin-bottom: 8px;
+  margin-top: 9px;
+  position: absolute;
+  background: #11111198;
+  padding: 6px;
+  text-align: center;
+  z-index: 1;
+}
+
+#navbar ul li {
+  list-style: none;
+  margin: 6px;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  padding: 6px 8px;
+  color: white;
+  border-radius: 20px;
+}
+
+#navbar ul li a:hover {
+  color: black;
+  background-color: white;
+}
+
+#side_bar {
+  background-color: #11111181;
+}
+
+#side_bar .menu {
+  list-style: none;
+  padding: 20px;
+}
+
+#side_bar .menu li {
+  border-bottom: 1px solid #00000029;
+  padding: 10px;
+}
+
+#side_bar .menu li:hover {
+  background: #00000029;
+}
+
+#side_bar .menu li a {
+  color: white;
+  font-family: "Baloo bhai", cursive;
+}
+
+.head-margin {
+  margin-top: 54px;
+}
+
+.center {
+  text-align: center;
+  font-family: Georgia, Times;
+}
+
+.primary {
+  font-size: 3.8rem;
+  padding: 12px;
+}
+
+.field_error {
+  color: red;
+}
+
+.card .box-link a {
+  font-size: 18px;
+  color: #000;
+  text-decoration: underline;
+}

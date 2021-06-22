@@ -1,0 +1,255 @@
+.form_right {
+  position: absolute;
+  right: 40px;
+}
+
+.bar {
+  position: absolute;
+  right: 60px;
+  top: 26px;
+}
+
+.dismiss {
+  position: absolute;
+  top: 8px;
+  padding: 12px;
+}
+
+.tag {
+  position: relative;
+}
+
+.header {
+  width: 100%;
+  background: #11111191;
+  z-index: 1;
+}
+
+#search_bar .search_bg {
+  background: #7d7d7d;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.search_action {
+  display: none;
+}
+
+.sticky {
+  position: sticky;
+  background: #7d7d7d;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+}
+
+#logo {
+  margin: 12px 34px;
+}
+
+#navbar {
+  margin: 0;
+  padding: 0;
+}
+
+#navbar ul {
+  margin-top: 16px;
+  font-family: "Baloo Bhai", cursive;
+}
+
+#navbar ul ul {
+  display: none;
+  margin-bottom: 8px;
+  margin-top: 18px;
+  position: absolute;
+  background: #11111198;
+  width: 147px;
+  padding: 0px 0px 6px;
+  margin-right: 1px;
+  text-align: center;
+  z-index: 1;
+}
+
+#navbar ul ul li {
+  list-style: none;
+  margin: 6px 0px;
+}
+
+#navbar ul ul li a {
+  text-decoration: none;
+  padding: 6px 8px;
+}
+
+#navbar ul li a {
+  color: white;
+  border-radius: 20px;
+  margin-right: 8px;
+}
+
+#navbar ul li a span {
+  background-color: red;
+  border-radius: 50%;
+  font-size: 14px;
+  text-align: center;
+  left: 24px;
+  top: 5px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+
+#navbar ul li a:hover {
+  color: black;
+  background-color: white;
+}
+
+#home {
+  height: 551px;
+  width: 100%;
+}
+
+.slider-overlay {
+  text-align: center;
+  background: #11111191;
+  width: 100%;
+  padding: 194px;
+}
+
+#slider-heading {
+  font-family: Georgia, serif;
+  font-size: 3.95rem;
+  padding: 10px;
+  color: white;
+}
+
+#slider-para {
+  font-family: Georgia, serif;
+  font-size: 30px;
+  color: white;
+}
+
+.carousel-indicators {
+  top: 588px;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.card .box-link {
+  font-size: 16px;
+}
+
+.card .box-link a {
+  color: black;
+}
+
+.btn a {
+  color: #fff;
+}
+
+.move-right {
+  float: right;
+}
+
+.field_error {
+  color: red;
+}
+
+.price {
+  list-style: none;
+  padding: 0px;
+}
+
+.old_price {
+  display: inline;
+  color: #7d7d7d;
+}
+
+.new_price {
+  display: inline;
+}
+
+.overlay {
+  background: url("../images/fact_bg.jpg");
+  background-size: cover;
+  width: 100%;
+}
+
+.bread-crump {
+  margin-top: 90px;
+}
+
+.bread-crump a {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.bread-crump span {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.head-style {
+  font-family: Georgia, serif;
+}
+
+.bg-art {
+  background-color: #11111161;
+}
+
+.form-group input,
+.form-group textarea {
+  border-left-color: red;
+  border-left-width: thick;
+  border-style: outset;
+}
+
+.shop button a {
+  text-decoration: none;
+  color: white;
+}
+
+.bg {
+  background-color: #11111161;
+  padding: 10px;
+}
+
+table tr td .btn-style {
+  text-decoration: none;
+  background-color: #343a40;
+  color: #fff;
+  padding: 6px 80px;
+}
+
+.list_hover:hover .product_action {
+  display: block;
+}
+
+.product_action {
+  list-style: none;
+  position: absolute;
+  top: 14px;
+  right: 65px;
+  display: none;
+}
+
+.product_action li {
+  margin-bottom: 12px;
+}
+
+.product_action li a {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 6px;
+}
+
+.product_action li a:hover {
+  background-color: #7d7d7d;
+  color: #ffffff;
+}
